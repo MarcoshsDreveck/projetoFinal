@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8"/>
     <title>Nome</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
-    <link href="lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="../lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
   </head>
 <header>
   <div class="menuF">
-    <div class="logotipo"> </div>
+    <div class="logotipo"></div>
     <nav class="menu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Categorias</a></li>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="categorias.php">Categorias</a></li>
         <li><a href="#">Envie uma dica</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="contato.php">Contato</a></li>
       </ul>
     </nav>
     <div class="redesSociais">

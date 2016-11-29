@@ -21,9 +21,10 @@ header{
   height: 145px;
 }
 .logotipo{
+  background-image: url(../imgs/logotipo.png);
+  background-position: center center;
   width: 200px;
   height: 80px;
-  background: white;
   float: left;
 }
 .menu{
@@ -36,12 +37,12 @@ header{
   display: inline-block;
   margin-top:25px;
   margin-left: 10px;
-  border-bottom: 2px solid rgb(65, 72, 87);
+  border-bottom: 2px solid #B80718;
   transition: 0.5s;
   height: 40px;
 }
 .menu ul li:hover{
-  background: rgb(65, 72, 87);
+  background: #B80718;
 }
 .menu a{
   font-size: 25px;
@@ -64,7 +65,7 @@ header a{
   color:white;
 }
 .redesSociais a:hover, .footerRedesSociais a:hover{
-  color:rgb(65, 72, 87);
+  color:#B80718;
 }
 .redesSociais ul li{
   display: inline-block;
@@ -121,7 +122,6 @@ footer{
   background: black;
   height: 40px;
   color:white;
-
 }
 .footerRedesSociais{
   width:200px;
@@ -173,6 +173,14 @@ body{
   font-size: 25px;
   font-family: Nova,cursive;
 }
+.tituloCat a{
+  text-decoration: none;
+  color: white;
+}
+.tituloCat a:hover{
+  color:#B80718;
+  text-decoration:underline;
+}
 #destaqueTop{
   color:white;
   font-size: 55px;
@@ -208,4 +216,63 @@ body{
   margin-top: 10px;
   background: white;
   height: 90px;
+}
+.catVid{
+  width: calc(50% - 11px);
+  padding-right: 10px;
+  float: left;
+  border-right: 2px solid #B80718;
+}
+.catImg{
+  width: calc(50% - 21px);
+  margin-left: 20px;
+  float: right;
+}
+.descCat{
+  font-family:NovaSlim,cursive;
+  font-size:20px;
+  margin-top:5px;
+}
+.descCat a{
+  text-decoration: none;
+  color:white;
+}
+.descCat a:hover{
+  text-decoration: underline;
+  color:#B80718;
+}
+.categoriaVid{
+  width: calc(20% - 11px);
+  padding-right: 10px;
+  float: left;
+  border-right: 2px solid #B80718;
+}
+.conteudoVid{
+  width: calc(80% - 21px);
+  margin-left: 20px;
+  float: right;
+}
+.contNormalcat{
+  background: white;
+  width: calc(50% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 300px;
+  float: left;
+}
+.contBannercat{
+  background: white;
+  width: calc(100% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 300px;
+  float: left;
+}
+.contQuadradocat{
+  background: white;
+  width: calc(100% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 600px;
+  float: left;
 }

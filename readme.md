@@ -1,2 +1,0 @@
-pksfjasfajrojeto finall
-fasfda
