@@ -1,0 +1,122 @@
+@font-face {
+font-family: Nova;
+  src: url(../lib/fonts/NovaSquare.ttf);
+}
+*{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+html{
+  //background: black;
+}
+header{
+  background: black;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 145px;
+}
+.logotipo{
+  width: 200px;
+  height: 80px;
+  background: white;
+  float: left;
+}
+.menu{
+  width: calc(100% - 450px);
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+  margin-top:25px;
+  margin-left: 10px;
+  border-bottom: 2px solid rgb(65, 72, 87);
+  transition: 0.5s;
+}
+.menu ul li:hover{
+  background: rgb(65, 72, 87);
+}
+.menu a{
+  font-size: 25px;
+  margin: 15px;
+  font-family:Nova,cursive;
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+.redesSociais{
+  width:250px;
+  height: 80px;
+  float: left;
+}
+.redesSociais a{
+  font-size: 40px;
+  color:white;
+
+}
+.redesSociais a:hover, .footerRedesSociais a:hover{
+  color:rgb(65, 72, 87);
+}
+.redesSociais ul li{
+  display: inline-block;
+  margin-top:20px;
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+.search{
+  margin-top:10px;
+  width: 100%;
+  height: 40px;
+  float:left;
+  font-size: 39px;
+  text-align: center;
+}
+.search input{
+  height: 100%;
+  width: calc(100% - 40px);
+  float: left;
+  border:none;
+}
+.fa-search{
+  width: 40px;
+  height: 40px;
+  float:right;
+  background: white;
+  color: black;
+}
+footer{
+  background: black;
+  height: 40px;
+  color:white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footerRedesSociais{
+  width:200px;
+  height: 40px;
+  float: right;
+}
+.footerRedesSociais a{
+  font-size: 30px;
+  color:white;
+}
+.footerRedesSociais ul li{
+  display: inline-block;
+  margin-top:4px;
+  width: 25%;
+  float: right;
+  text-align: right;
+}
+footer p{
+  margin-top:10px;
+  color:white;
+  float:left;
+}
+.container{
+  height: 1000px;
+}

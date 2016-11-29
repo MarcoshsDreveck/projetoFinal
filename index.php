@@ -1,9 +1,12 @@
+
 <?php
-  include 'includes\header.html';
+  include 'includes\header.php';
 ?>
 <body>
-  <h2>Corpo do documento</h2>
+  <div class="container">
+      <h2>Corpo do documento</h2>
+  </div>
 </body>
 <?php
-  include 'includes\footer.html';
+  include 'includes\footer.php';
 ?>
