@@ -1,7 +1,12 @@
 @font-face {
 font-family: Nova;
-  src: url(../lib/fonts/NovaSquare.ttf);
+  src: url(../lib/fonts/NovaSquare.ttf); /*titulos*/
 }
+@font-face {
+font-family: NovaSlim;
+  src: url(../lib/fonts/NovaSlim.ttf); /*textos*/
+}
+/*cabeçalho inicio*/
 *{
   margin: 0 auto;
   max-width: 1200px;
@@ -12,8 +17,7 @@ html{
 header{
   background: black;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+
   height: 145px;
 }
 .logotipo{
@@ -34,6 +38,7 @@ header{
   margin-left: 10px;
   border-bottom: 2px solid rgb(65, 72, 87);
   transition: 0.5s;
+  height: 40px;
 }
 .menu ul li:hover{
   background: rgb(65, 72, 87);
@@ -47,16 +52,16 @@ header a{
   text-decoration: none;
   color: white;
 }
-
 .redesSociais{
   width:250px;
   height: 80px;
   float: left;
+  transition: 0.5s;
+
 }
 .redesSociais a{
   font-size: 40px;
   color:white;
-
 }
 .redesSociais a:hover, .footerRedesSociais a:hover{
   color:rgb(65, 72, 87);
@@ -75,12 +80,16 @@ header a{
   float:left;
   font-size: 39px;
   text-align: center;
+
 }
 .search input{
   height: 100%;
   width: calc(100% - 40px);
   float: left;
   border:none;
+  font-family: NovaSlim,cursive;
+  font-size: 20px;
+  padding-left: 15px;
 }
 .fa-search{
   width: 40px;
@@ -89,12 +98,30 @@ header a{
   background: white;
   color: black;
 }
+.semMenu{  /*mudança cabeçalho ao rolar*/
+  display:none;
+}
+.searchScroll{
+  margin-left: 20px;
+  margin-top:40px;
+  width: calc(100% - 220px);
+
+}
+.menuFixo{
+  background: black;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
+/*Fim mudança cabeçalho ao rolar*/
+
+/*cabeçalho fim
+Rodapé inicio*/
 footer{
   background: black;
   height: 40px;
   color:white;
-  padding-left: 15px;
-  padding-right: 15px;
+
 }
 .footerRedesSociais{
   width:200px;
@@ -116,7 +143,69 @@ footer p{
   margin-top:10px;
   color:white;
   float:left;
+  font-family: NovaSlim,cursive;
+}
+/*Rodapé fim
+Body inicio*/
+body{
+  background: black;
 }
 .container{
-  height: 1000px;
+  margin: 0 auto;
+}
+.maisRecentes{
+  width:calc(45% - 20px);
+  float: left;
+  margin-right:20px;
+}
+.maisVotados{
+  width:calc(45% - 20px);
+  float: left;
+  margin-right:20px;
+}
+.topParceiros{
+  width:10%;
+  float: left;
+  text-align: center;
+}
+.tituloCat{
+  color:white;
+  font-size: 25px;
+  font-family: Nova,cursive;
+}
+#destaqueTop{
+  color:white;
+  font-size: 55px;
+  font-family: Nova,cursive;
+}
+/*Conteudos*/
+.contNormal{
+  background: white;
+  width: calc(50% - 10px);
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 150px;
+  float: left;
+}
+.contBanner{
+  background: white;
+  width: calc(100% - 10px);
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 150px;
+  float: left;
+}
+.contQuadrado{
+  background: white;
+  width: calc(100% - 10px);
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 300px;
+  float: left;
+}
+/*parceiros*/
+.imgParceiro{
+  margin-top: 10px;
+  background: white;
+  height: 90px;
 }
