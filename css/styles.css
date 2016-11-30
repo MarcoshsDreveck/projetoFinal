@@ -276,3 +276,41 @@ body{
   height: 600px;
   float: left;
 }
+.infPessoais{
+  width: 50%;
+  margin-top: 10px;
+  height: 210px;
+  float: left;
+}
+.imgContato{
+  width: 200px;
+  height: 200px;
+  background: white;
+  float: left;
+}
+.infContato{
+  margin-left: 15px;
+  float:left;
+  color: white;
+}
+.infContato h2{
+  font-family: Nova,cursive;
+}
+.infContato p{
+  font-family: NovaSlim,cursive;
+}
+.infContato ul{
+    padding: 0;
+}
+.infContato ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.infContato a{
+  color:white;
+  font-size: 30px;
+}
+.infContato a:hover{
+  color:#B80718;
+
+}

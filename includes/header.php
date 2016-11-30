@@ -14,7 +14,7 @@
         <li><a href="home.php">Home</a></li>
         <li><a href="categorias.php">Categorias</a></li>
         <li><a href="#">Envie uma dica</a></li>
-        <li><a href="contato.php">Contato</a></li>
+        <li><a href="contatoinf.php">Contato</a></li>
       </ul>
     </nav>
     <div class="redesSociais">

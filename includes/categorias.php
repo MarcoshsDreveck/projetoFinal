@@ -53,7 +53,6 @@
   </div>
 </div>
 </body>
-<script src="../lib/jquerry/jquery.js" type="text/javascript"></script>
 <?php
   include 'footer.php';
 ?>
