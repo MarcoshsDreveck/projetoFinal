@@ -1,8 +1,5 @@
 <?php
   include 'header.php';
-
-  $rdV = rand(101,102);
-
 ?>
 <body>
   <!--criar php para adicionar videos e imagens e criar páginas imagem usar exp abaixo -->
@@ -44,6 +41,7 @@
             <div class="imgParceiro"><a href="#"></a></div>
             <div class="imgParceiro"><a href="#"></a></div>
             <div class="imgParceiro"><a href="#"></a></div>
+
       </div>
   </div>
 </body>

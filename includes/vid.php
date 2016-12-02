@@ -2,7 +2,7 @@
   include 'header.php';
 
   $x = $_GET['x'];
-
+//criar uma página somente com um if para identificar o tipo de midia
 ?>
 <div>
 <video autoplay controls width=500>
