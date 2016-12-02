@@ -315,3 +315,7 @@ body{
   color:#B80718;
 
 }
+
+#envieDicaForm{
+  display: none;
+}
