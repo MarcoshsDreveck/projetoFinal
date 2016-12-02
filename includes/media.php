@@ -15,9 +15,6 @@ if ($x > 100){
   echo "</div>";
 }
 ?>
-
-
-
 <?php
   include 'footer.php';
 ?>

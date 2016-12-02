@@ -30,4 +30,5 @@
       <input type="search" placeholder="Search..."/><i class="fa fa-search" aria-hidden="true"></i>
     </div>
   </div>
+  
 </header>
