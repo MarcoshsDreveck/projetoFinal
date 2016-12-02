@@ -315,3 +315,15 @@ body{
   color:#B80718;
 
 }
+
+#envieDicaForm{
+  display: none;
+}
+
+.zoomImagem{
+  width: calc(100% - 10px);
+  margin-right: 10px;
+  margin-top: 10px;
+  float:inherit;
+  z-index: 10;
+}

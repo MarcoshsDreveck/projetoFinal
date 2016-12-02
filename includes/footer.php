@@ -34,5 +34,15 @@ $(document).ready(function($){
     });
 });
 
+
+/*Mostrar e fechar menu de dica*/
+
+    $("#envieDica").click(function() {
+      $('#envieDicaForm').show();
+    });
+
+        $("#fechar").click(function() {
+      $('#envieDicaForm').hide();
+    });
 </script>
 </html>

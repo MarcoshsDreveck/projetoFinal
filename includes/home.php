@@ -2,6 +2,23 @@
   include 'header.php';
 ?>
 <body>
+  <div id="envieDicaForm" title="Envie sua dica">
+    <form>
+      <fieldset>
+        <label for="name" class="dicaContentLabel">Name</label>
+        <input type="text" name="name" id="name" class="dicaContentInput"><br />
+        <label for="email" class="dicaContentLabel">Email</label>
+        <input type="text" name="email" id="email" class="dicaContentInput"><br />
+        <label for="url" class="dicaContentLabel">E-mail</label>
+        <input type="text" name="url" id="url" class="dicaContentInput"><br />
+        <label for="comentario" class="dicaContentLabel">Comentário</label>
+        <input type="text" name="comentario" id="comentario" class="dicaContentInput"><br /><br />
+        <input type="button" name = "enviar" id="enviar" value="Enviar">
+        <input type="button" name = "fechar" id="fechar" value="Fechar">
+        <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      </fieldset>
+    </form>
+</div>
   <!--criar php para adicionar videos e imagens e criar páginas imagem usar exp abaixo -->
   <div class="container">
       <div class="maisRecentes">
@@ -45,7 +62,6 @@
       </div>
   </div>
 </body>
-
 <?php
   include 'footer.php';
 ?>
