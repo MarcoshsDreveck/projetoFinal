@@ -5,6 +5,7 @@
     <title>Nome</title>
     <link href="../css/styles.css" type="text/css" rel="stylesheet" />
     <link href="../lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+
   </head>
 <header>
   <div class="menuF">

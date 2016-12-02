@@ -21,8 +21,8 @@ header{
   height: 145px;
 }
 .logotipo{
-  background-image: url(../imgs/logotipo.png);
-  background-position: center center;
+  background-image: url(../medias/logotipo.png);
+  background-position: left bottom;
   width: 200px;
   height: 80px;
   float: left;
@@ -122,6 +122,8 @@ footer{
   background: black;
   height: 40px;
   color:white;
+  width: 100%;
+  float: left;
 }
 .footerRedesSociais{
   width:200px;
@@ -188,11 +190,9 @@ body{
 }
 /*Conteudos*/
 .contNormal{
-  background: white;
   width: calc(50% - 10px);
   margin-right: 10px;
   margin-top: 10px;
-  height: 150px;
   float: left;
 }
 .contBanner{
@@ -204,17 +204,18 @@ body{
   float: left;
 }
 .contQuadrado{
-  background: white;
   width: calc(100% - 10px);
   margin-right: 10px;
   margin-top: 10px;
-  height: 300px;
   float: left;
 }
 /*parceiros*/
 .imgParceiro{
+  background: #B80718;
+  background-image: url(../medias/sejaParceiro.png);
+  background-position: center center;
+  background-repeat: no-repeat;
   margin-top: 10px;
-  background: white;
   height: 90px;
 }
 .catVid{

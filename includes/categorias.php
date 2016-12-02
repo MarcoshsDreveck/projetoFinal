@@ -4,7 +4,7 @@
 <body>
 <div class="container">
   <div class="catVid">
-    <h1 class="tituloCat"><a href="vid.php">Videos / Vines</a></h1><br />
+    <h1 class="tituloCat"><a href="catVid.php">Videos / Vines</a></h1><br />
     <p class="descCat"><a href="#">Animação</a></p>
     <p class="descCat"><a href="#">Animais</a></p>
     <p class="descCat"><a href="#">Animes</a></p>
@@ -28,7 +28,7 @@
   </div>
 
   <div class="catImg">
-    <h1 class="tituloCat"><a href="img.php">Gifs / Imgs</a></h1><br />
+    <h1 class="tituloCat"><a href="catImg.php">Gifs / Imgs</a></h1><br />
     <p class="descCat"><a href="#">Animação</a></p>
     <p class="descCat"><a href="#">Animais</a></p>
     <p class="descCat"><a href="#">Animes</a></p>

@@ -12,7 +12,6 @@
   </div>
 </footer>
 <script src="../lib/jquerry/jquery.js" type="text/javascript"></script>
-
 <script>
 /*Alterar menu ao rolar tela*/
 $(document).ready(function($){
