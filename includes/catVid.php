@@ -27,9 +27,14 @@
     <p class="descCat"><a href="#">Vida e Lazer</a></p><br />
   </div>
   <div class="conteudoVid">
-    <div class="contNormalcat"><a href="#"></a></div>
-    <div class="contNormalcat"><a href="#"></a></div>
-    <div class="contQuadradocat"><a href="#"></a></div>
+    <div class="contNormal">
+      <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(71,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+      <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(71,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+    </div>
+    <div class="contNormal">
+      <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(71,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+      <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(71,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+    </div>
 
 
   </div>

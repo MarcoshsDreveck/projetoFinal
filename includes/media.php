@@ -32,14 +32,14 @@
   </div>
 </div>
 <div class="contSimilar">
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
 </div>
 <div class="contSimilar">
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-  <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
+  <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,78); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
 </div>
 <?php
   include 'footer.php';
