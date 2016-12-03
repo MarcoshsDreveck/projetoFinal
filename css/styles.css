@@ -304,6 +304,10 @@ body{
   height: 200px;
   background: white;
   float: left;
+  transition: 0.8s;
+}
+.imgContato:hover{
+  transform: scaleX(1.2) scaleY(1.2);
 }
 .infContato{
   margin-left: 15px;
@@ -400,6 +404,9 @@ fieldset {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.infContatoMenu p:hover{
+  background: #B80718;
+}
 
 #sejaParceiro{
   margin-left: 20px;
@@ -450,7 +457,8 @@ fieldset {
   float: left;
 }
 .contSimilar{
-  width: 30%;
+  margin-left: 20px;
+  width: 20%;
   float:right;
 }
 .contSimilar div{

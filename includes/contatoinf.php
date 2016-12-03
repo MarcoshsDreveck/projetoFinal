@@ -10,7 +10,7 @@
   <div class="container">
     <h1 class="tituloCat">Contato</h1>
     <div class="infPessoais">
-        <div class="imgContato"></div>
+        <div class="imgContato"><img src="../medias/Bodeterno.jpg" width="100%"/></div>
           <div class="infContato">
             <h2>Marcos Dreveck</h2><br />
             <p>WhatsApp: (xx)9XXXX-XXXX</p>
