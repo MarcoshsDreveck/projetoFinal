@@ -24,7 +24,7 @@
 
     </div>
     <div class="infPessoais">
-        <div class="imgContato"></div>
+        <div class="imgContato"><img src="../medias/ze_contato.jpg" width="100%"/></div>
           <div class="infContato">
             <h2>José Miguel</h2><br />
             <p>WhatsApp: (xx)9XXXX-XXXX</p><br />
