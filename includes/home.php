@@ -6,25 +6,79 @@
   <div class="container">
       <div class="maisRecentes">
         <h1 class="tituloCat">Mais Recentes</h1>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
         <div class="contQuadrado"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
-        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+
+
       </div>
       <div class="maisVotados">
         <h1 class="tituloCat">Mais Votados</h1>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
-        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contQuadrado"><a href="media.php?x=<?php echo $rdV = rand(101,102); ?>"><img src="../medias/<?php echo $rdV; ?>.gif" width=100% /></a></div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
+        <div class="contNormal">
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+          <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
+        </div>
     </div>
   <!-- Parceiros do site -->
       <div class="topParceiros">

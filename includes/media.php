@@ -4,7 +4,7 @@
 ?>
 <div class="conteudoMedia">
   <?php
-    if ($x > 100){
+    if ($x > 70){
       echo "<video autoplay controls width=\"100%\">";
       echo "<source src=\"../medias/$x.ogv\" type='video/ogg; codecs=\"theora, vorbis\"'/>";
       echo "<source src=\"../medias/$x.webm\" type='video/webm' >";
