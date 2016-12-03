@@ -33,8 +33,6 @@ $(document).ready(function($){
         }
     });
 });
-
-
 /*Mostrar e fechar menu de dica*/
 
     $("#envieDica").click(function() {
