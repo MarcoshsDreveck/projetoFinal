@@ -8,6 +8,7 @@
 
   </head>
 <header>
+  <!-- Formulário para enviar dica -->
   <div id="envieDicaForm" title="Envie sua dica">
     <form>
       <fieldset>
@@ -16,12 +17,12 @@
         <input type="e-mail" name="email" id="email" class="dicaContentInput" placeholder="Digite seu e-mail..."><br />
         <input type="text" name="url" id="url" class="dicaContentInput" placeholder="Sua URL..."><br />
         <textarea type="text" name="comentario" id="comentario" class="dicaContentText" >Sua mensagem aqui... </textarea><br />
-        <input type="button" class="btn" name = "enviar" id="enviar" value="Enviar">
-        <input type="button" class="btn" name = "fechar" id="fechar" value="Fechar">
-        <!-- Allow form submission with keyboard without duplicating the dialog button -->
+        <input type="button" class="btn" name = "enviar" id="enviarDica" value="Enviar">
+        <input type="button" class="btn" name = "fechar" id="fecharDica" value="Fechar">
       </fieldset>
     </form>
   </div>
+ <!-- Menu do site -->
   <div class="menuF">
     <div class="logotipo"></div>
     <nav class="menu">
@@ -32,6 +33,7 @@
         <li><a href="contatoinf.php">Contato</a></li>
       </ul>
     </nav>
+<!-- Redes sociais -->
     <div class="redesSociais">
       <ul>
         <li><a href="#"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>

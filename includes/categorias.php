@@ -2,6 +2,7 @@
   include 'header.php';
 ?>
 <body>
+<!-- Include de categorias no menu de categorias do site -->
 <div class="container">
   <div class="catVid">
     <h1 class="tituloCat"><a href="catVid.php">Videos / Vines</a></h1><br />

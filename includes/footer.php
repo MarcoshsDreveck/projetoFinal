@@ -39,8 +39,25 @@ $(document).ready(function($){
       $('#envieDicaForm').show();
     });
 
-        $("#fechar").click(function() {
+        $("#fecharDica").click(function() {
       $('#envieDicaForm').hide();
+    });
+
+/*Mostrar e fechar entre em contato*/
+    $("#entreContato").click(function() {
+      $('#entreContatoForm').show();
+    });
+
+        $("#fecharContato").click(function() {
+      $('#entreContatoForm').hide();
+    });
+/*Mostrar e fechar seja um parceiro*/
+    $("#sejaParceiro").click(function() {
+      $('#sejaParceiroForm').show();
+    });
+
+        $("#fecharParceiro").click(function() {
+      $('#sejaParceiroForm').hide();
     });
 </script>
 </html>
