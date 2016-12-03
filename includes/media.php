@@ -23,10 +23,10 @@
       js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
       fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));</script>
-      <div class="fb-share-button" data-href="http://127.0.0.1/projetoFinal/medias/<?php echo $x; ?>.gif" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Compartilhar</a></div>
-      <div class="twRe"><a href="https://twitter.com/share" class="twitter-share-button " data-url="http://127.0.0.1/projetoFinal/medias/<?php echo $x; ?>.gif">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+      <div class="fb-share-button" data-href="http://127.0.0.1/projetoFinal/includes/media.php?x=<?php echo $x; ?>" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Compartilhar</a></div>
+      <div class="twRe"><a href="https://twitter.com/share" class="twitter-share-button " data-url="http://127.0.0.1/projetoFinal/includes/media.php?x=<?php echo $x; ?>">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
       <div class="twRe"><a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /> </a></div>
-      <br /><input type="text" name="comp" id="comp" class="compInput" value="http://127.0.0.1/projetoFinal/medias/<?php echo $x; ?>.gif">
+      <br /><input type="text" name="comp" id="comp" class="compInput" value="http://127.0.0.1/projetoFinal/includes/media.php?x=<?php echo $x; ?>">
       <p>Copie e cole em seu site</p>
 
   </div>
