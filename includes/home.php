@@ -26,6 +26,7 @@
         <div class="contNormal"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
         <div class="contQuadrado"><a href="media.php?x=<?php echo $rdI = rand(1,2); ?>"><img src="../medias/<?php echo $rdI; ?>.gif" width=100% /></a></div>
     </div>
+  <!-- Parceiros do site -->
       <div class="topParceiros">
         <h1 id="destaqueTop">TOP</h1>
         <h1 class="tituloCat">Parceiros</h1>
