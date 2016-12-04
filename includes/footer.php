@@ -19,22 +19,29 @@ $(document).ready(function($){
     var nav2 = $('.menuF');
     var nav3 = $('.redesSociais');
     var nav4 = $('.search');
+    var nav5 = $('.menuSmartTop');
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > 10) {
             nav4.addClass("searchScroll");
             nav1.addClass("semMenu");
-            nav2.addClass("menuFixo")
+            nav2.addClass("menuFixo");
             nav3.addClass("semMenu");
+            nav5.addClass("semMenu");
         } else {
             nav4.removeClass("searchScroll");
             nav1.removeClass("semMenu");
-            nav2.removeClass("menuFixo")
+            nav2.removeClass("menuFixo");
             nav3.removeClass("semMenu");
+            nav5.removeClass("semMenu");
+
         }
     });
 });
 /*Mostrar e fechar menu de dica*/
-
+    $("#envieDicaSmart").click(function() {
+      $('#envieDicaForm').show();
+    });
     $("#envieDica").click(function() {
       $('#envieDicaForm').show();
     });

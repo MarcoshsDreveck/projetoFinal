@@ -9,15 +9,15 @@ font-family: NovaSlim;
 /*cabeçalho inicio*/
 *{
   margin: 0 auto;
-  max-width: 1200px;
 }
 html{
   //background: black;
+  max-width: 1200px;
+
 }
 header{
   background: black;
   width: 100%;
-
   height: 145px;
 }
 .logotipo{
@@ -48,6 +48,9 @@ header{
   font-size: 25px;
   margin: 15px;
   font-family:Nova,cursive;
+}
+.menuSmart,.menuSmartTop ul, .menuSmartTop ul li .fa-upload, .menuSmartTop ul li .fa-ellipsis-v{
+  display: none;
 }
 header a{
   text-decoration: none;
@@ -96,8 +99,7 @@ header a{
   width: 40px;
   height: 40px;
   float:right;
-  background: white;
-  color: black;
+  color: white;
 }
 .semMenu{  /*mudança cabeçalho ao rolar*/
   display:none;
@@ -156,13 +158,17 @@ body{
 .container{
   margin: 0 auto;
 }
+.contHome{
+  width: 90%;
+  float:left;
+}
 .maisRecentes{
-  width:calc(45% - 20px);
+  width:calc(50% - 20px);
   float: left;
   margin-right:20px;
 }
 .maisVotados{
-  width:calc(45% - 20px);
+  width:calc(50% - 20px);
   float: left;
   margin-right:20px;
 }

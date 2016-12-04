@@ -1,0 +1,108 @@
+@media screen and (min-width: 200px) and (orientation: portrait) {
+
+  html{
+  margin: 0 5px;
+  }
+  .menu a{
+    display: none;
+  }
+  .parceiros{
+    font-size: 20px;
+  }
+  .menuFixo{
+    margin-right: 10px;
+    height: 150px;
+  }
+  .logotipo{
+    margin-top: 20px;
+    height: 100px;
+    width: 220px;
+    background-size: cover;
+    }
+  .search{
+    margin-top: 20px;
+    height: 70px;
+    font-size: 4em;
+  }
+  .search input{
+    width: calc(100% - 70px);
+    font-size: 1em;
+  }
+  .searchScroll{
+    margin-top: 50px;
+    width: calc(100% - 250px);
+  }
+  .searchScroll input{
+    font-size: 1em;
+    width: calc(100% - 70px);
+  }
+  .fa-search{
+    width:70px;
+    height: 70px;
+  }
+  .maisRecentes{
+    width:calc(100% - 20px);
+  }
+  .maisVotados, .maisRecentes{
+    width: 100%;
+    margin-top: 30px;
+    border-top: 4px solid #B80718;
+    padding-top: 10px;
+  }
+  .contHome{
+    width: 100%
+  }
+  .tituloCat{
+    font-size: 3em;
+  }
+  .topParceiros{
+   display: none;
+  }
+  .descCat{
+    font-size: 2em;
+    margin: 15px 0;
+  }
+  .redesSociais{
+    display: none;
+  }
+  .menuSmart{
+    display: block;
+    background: white;
+    height: 1000px;
+    float: right;
+    width: 90%;
+    z-index:20;
+    margin-top:20px;
+  }
+  .menuSmartTop, .menuSmartTop ul{
+    display: block;
+  }
+  .menuSmartTop ul li{
+    display: inline-block;
+  }
+  .menuSmartTop ul li .fa-upload{
+      display: block;
+      font-size: 120px;
+      position: absolute;
+      top: 10px;
+      right: 140px;
+      margin-left: 10px;
+    }
+    .menuSmartTop ul li .fa-ellipsis-v{
+        display: block;
+        font-size: 130px;
+        margin-top: 10px;
+        position: absolute;
+        top:0px;
+        right: 60px;
+        margin-left: 10px;
+      }
+      .menuRed{
+        color:#B80718;
+      }
+      .semMenu{
+        display: none;
+      }
+  }
+
+}

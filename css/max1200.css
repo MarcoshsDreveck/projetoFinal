@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px) and (orientation: landscape), (orientation: portrait){
+
+  html{
+  margin: 0 5px;
+  }
+  .menu a{
+    font-size: 20px;
+    margin:5px;
+  }
+  .parceiros{
+    font-size: 20px;
+  }
+  .menuFixo{
+    margin-right: 10px;
+  }
+  .searchScroll{
+    width: calc(100% - 230px);
+  }
+}

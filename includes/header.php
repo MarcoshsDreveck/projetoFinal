@@ -2,8 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>Nome</title>
+    <title>MemeLand</title>
     <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="../css/max1200.css" type="text/css" rel="stylesheet" />
+    <link href="../css/max500.css" type="text/css" rel="stylesheet" />
     <link href="../lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
 
   </head>
@@ -33,7 +35,14 @@
         <li><a href="contatoinf.php">Contato</a></li>
       </ul>
     </nav>
-<!-- Redes sociais -->
+    <div class="menuSmartTop">
+      <ul>
+        <li><a href="#" id="envieDicaSmart"><i class="fa fa-upload" aria-hidden="true"></i></a></li>
+        <li><a href="#"id="menuBtnSmart"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+     <!-- Menu do site em smartphone -->
+    <!-- Redes sociais -->
     <div class="redesSociais">
       <ul>
         <li><a target="_blank" href="https://www.reddit.com/"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
@@ -42,6 +51,10 @@
         <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
       </ul>
     </div>
+    <nav class="menuSmart">
+
+
+    </nav>
     <div class="search /*searchScroll*/">
       <input type="search" placeholder="Search..."/><i class="fa fa-search" aria-hidden="true"></i>
     </div>
