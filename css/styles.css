@@ -130,7 +130,7 @@ footer{
 }
 .footerRedesSociais{
   width:200px;
-  height: 40px;
+  height: 70px;
   float: right;
 }
 .footerRedesSociais a{
@@ -145,8 +145,8 @@ footer{
   text-align: right;
 }
 footer p{
-  margin-top:10px;
   color:white;
+  margin-top:10px;
   float:left;
   font-family: NovaSlim,cursive;
 }
@@ -467,14 +467,17 @@ fieldset {
   width: 100%;
 }
 .contShare{
-margin-top: 10px;
-background: #B80718;
-height: 110px;
+  margin-top: 10px;
+  background: #B80718;
+  height: 110px;
 
 }
 .twRe{
-margin:5px;
+  margin:5px;
   float: left;
+}
+.twRe img{
+  height: 25px;
 }
 .fb-share-button{
   margin:5px;
@@ -493,5 +496,14 @@ margin:5px;
   color:white;
   margin-left: 5px;
   margin-top: 5px;
-
+}
+/*tirando menuSmart*/
+.menuSmart li{
+  display: none;
+}
+.parceirosSmart{
+  display: none;
+}
+.onlySmart{
+  display:none;
 }

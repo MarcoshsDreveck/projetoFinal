@@ -16,4 +16,7 @@
   .searchScroll{
     width: calc(100% - 230px);
   }
+  .parceirosSmart{
+    display: none;
+  }
 }

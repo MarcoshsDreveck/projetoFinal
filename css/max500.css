@@ -53,14 +53,19 @@
     width: 100%
   }
   .tituloCat{
-    font-size: 3em;
+    font-size: 3.8em;
   }
   .topParceiros{
    display: none;
   }
   .descCat{
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 15px 0;
+  }
+  .catVid{
+    width: calc(50% - 13px);
+    padding-right: 9px;
+    border-right: 4px solid #B80718;
   }
   .redesSociais{
     display: none;
@@ -102,6 +107,9 @@
     font-family: Nova,cursive;
     margin-left: 40px;
     padding-top: 40px;
+  }
+  .parceirosSmart{
+    display: block;
   }
   .imgParceiroSmart{
     height: 160px;
@@ -154,6 +162,50 @@
       .semMenu{
         display: none;
       }
+    /*rodapé*/
+  .footerRedesSociais{
+    width:45%;
+  }
+  .footerRedesSociais ul li a{
+    font-size: 6em;
+  }
+  footer p{
+    margin-top:36px;
+    font-size: 2em;
+  }
+  .categoriaVid{
+    display: none;
+  }
+  .conteudoVid{
+    width: calc(100% - 21px);
+  }
+  .onlySmart{
+    display: block;
+  }
+  .conteudoMedia{
+    width: 100%;
+  }
+  .contSimilar{
+    width: calc(50% - 20px);
+  }
+  .contShare{
+    height: 240px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .twitter-share-button{
+    font-size: 10em;
+  }
+  .twRe img{
+    height: 60px;
+  }
+  .compInput{
+    margin-top: 20px;
+    height: 60px;
+    font-size: 2em;
+  }
+  .contShare p {
+    font-size: 3em;
   }
 
 }

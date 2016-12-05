@@ -26,7 +26,7 @@
   </div>
  <!-- Menu do site -->
   <div class="menuF">
-    <div class="logotipo"></div>
+    <a href="home.php"><div class="logotipo"></div></a>
     <nav class="menu">
       <ul>
         <li><a href="home.php">Home</a></li>
