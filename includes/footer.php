@@ -76,6 +76,18 @@ $(document).ready(function($){
     $("#idMenuSmartBlur").click(function() {
   $('#idMenuSmart').hide();
   });
+  $("#enviarContato").click(function() {
+    alert("Sua mensagem foi enviada com sucesso!");
+    $('#entreContatoForm').hide();
+  });
+  $("#enviarParceiro").click(function() {
+    alert("Seu pedido foi enviado com sucesso! Aguarde retorno.");
+    $('#sejaParceiroForm').hide();
+  });
+  $("#enviarDica").click(function() {
+    alert("Sua dica foi enviada com sucesso! Iremos avaliá-la.");
+    $('#envieDicaForm').hide();
+  });
 
 
 </script>
