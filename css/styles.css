@@ -117,6 +117,10 @@ header a{
   height: 100px;
   z-index: 12;
 }
+.menuF{
+  max-width: 1200px;
+
+}
 /*Fim mudança cabeçalho ao rolar*/
 
 /*cabeçalho fim

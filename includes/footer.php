@@ -45,16 +45,13 @@ $(document).ready(function($){
     $("#envieDica").click(function() {
       $('#envieDicaForm').show();
     });
-
         $("#fecharDica").click(function() {
       $('#envieDicaForm').hide();
     });
-
 /*Mostrar e fechar entre em contato*/
     $("#entreContato").click(function() {
       $('#entreContatoForm').show();
     });
-
         $("#fecharContato").click(function() {
       $('#entreContatoForm').hide();
     });
@@ -62,7 +59,6 @@ $(document).ready(function($){
     $("#sejaParceiro").click(function() {
       $('#sejaParceiroForm').show();
     });
-
         $("#fecharParceiro").click(function() {
       $('#sejaParceiroForm').hide();
     });
