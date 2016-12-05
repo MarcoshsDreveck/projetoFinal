@@ -3,9 +3,13 @@
   html{
   margin: 0 5px;
   }
+  header{
+    height: 230px;
+  }
   .menu a{
     display: none;
   }
+
   .parceiros{
     font-size: 20px;
   }
@@ -207,5 +211,54 @@
   .contShare p {
     font-size: 3em;
   }
+  #envieDicaForm, #entreContatoForm, #sejaParceiroForm{
+    left:0px;
+  }
+   #entreContatoForm form, #sejaParceiroForm form{
+    width: 90%;
+    margin-top: 10%;
+  }
+  #envieDicaForm form{
+    width: 90%;
+    margin-top: 30%;
+  }
+  fieldset legend{
+    font-size: 3em;
+  }
+  .dicaContentInput{
+    font-size:2em;
+    height: 70px;
+  }
+  .dicaContentText{
+    font-size:2em;
+    height: 120px;
+  }
+  .btn{
+    font-size: 2em;
+    width: 170px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  .infPessoais{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .infContato h2{
+    font-size: 3em;
+  }
+  .infContato p{
+    font-size: 2em;
+  }
+  .infContato a{
+    font-size: 4em;
+  }
+  .infContatoMenu{
+    width: 100%;
+  }
+  .infContatoMenu p{
+    font-size: 3em;
+    height: 80px;
+    border-bottom: 4px solid #B80718;
 
+  }
 }

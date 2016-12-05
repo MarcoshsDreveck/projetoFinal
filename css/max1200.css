@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) and (orientation: landscape), (orientation: portrait){
+@media screen and (max-width: 1200px) and (orientation: landscape){
 
   html{
   margin: 0 5px;
@@ -18,5 +18,14 @@
   }
   .parceirosSmart{
     display: none;
+  }
+  #envieDicaForm, #entreContatoForm, #sejaParceiroForm{
+    left:0px;
+  }
+  #entreContatoForm form, #sejaParceiroForm form{
+    margin-top: 0;
+  }
+  #envieDicaForm form{
+    margin-top: 6%;
   }
 }
