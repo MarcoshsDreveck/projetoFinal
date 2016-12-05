@@ -91,6 +91,7 @@ header a{
   font-family: NovaSlim,cursive;
   font-size: 20px;
   padding-left: 15px;
+  border-radius: 60px;
 }
 .fa-search{
   width: 40px;

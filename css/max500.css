@@ -29,14 +29,14 @@
   }
   .search input{
     width: calc(100% - 70px);
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .searchScroll{
     margin-top: 50px;
     width: calc(100% - 250px);
   }
   .searchScroll input{
-    font-size: 1em;
+    font-size: 0.8em;
     width: calc(100% - 70px);
   }
   .fa-search{
