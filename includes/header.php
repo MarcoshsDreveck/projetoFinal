@@ -7,7 +7,6 @@
     <link href="../css/max1200.css" type="text/css" rel="stylesheet" />
     <link href="../css/max500.css" type="text/css" rel="stylesheet" />
     <link href="../lib/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
-
   </head>
 <header>
   <!-- Formulário para enviar dica -->
@@ -35,13 +34,13 @@
         <li><a href="contatoinf.php">Contato</a></li>
       </ul>
     </nav>
+    <!-- Menu do site em smartphone -->
     <div class="menuSmartTop">
       <ul>
         <li><a href="#" id="envieDicaSmart"><i class="fa fa-upload" aria-hidden="true"></i></a></li>
         <li><a href="#"id="menuBtnSmart"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></li>
       </ul>
     </div>
-     <!-- Menu do site em smartphone -->
     <!-- Redes sociais -->
     <div class="redesSociais">
       <ul>
@@ -51,6 +50,7 @@
         <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
       </ul>
     </div>
+    <!-- Menu do site em smartphone -->
     <nav id="idMenuSmart" class="menuSmart">
       <div id="menuClose"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
       <div id="idMenuSmartBlur" class="menuSmartBlur"></div><!--fecha menu-->
@@ -61,6 +61,7 @@
         <li class="catSub"><a href="catImg.php">Gifs / Imgs</a></li>
         <li><a href="contatoinf.php">Contato</a></li>
       </ul>
+      <!-- top parceiros no menu do site em smartphone -->
       <div class="topParceirosSmart">
         <h1 id="parceirosSmart">TOP parceiros</h1>
             <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
@@ -71,7 +72,6 @@
             <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
             <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
             <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
-
       </div>
     </nav>
     <div class="search /*searchScroll*/">

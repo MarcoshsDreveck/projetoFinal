@@ -12,8 +12,7 @@ font-family: NovaSlim;
 }
 html{
   //background: black;
-  max-width: 1200px;
-
+  max-width: 1300px;
 }
 header{
   background: black;
@@ -61,7 +60,6 @@ header a{
   height: 80px;
   float: left;
   transition: 0.5s;
-
 }
 .redesSociais a{
   font-size: 40px;
@@ -84,7 +82,6 @@ header a{
   float:left;
   font-size: 39px;
   text-align: center;
-
 }
 .search input{
   height: 100%;
@@ -108,7 +105,6 @@ header a{
   margin-left: 20px;
   margin-top:40px;
   width: calc(100% - 220px);
-
 }
 .menuFixo{
   background: rgba(0,0,0,0.8);
@@ -118,11 +114,9 @@ header a{
   z-index: 12;
 }
 .menuF{
-  max-width: 1200px;
-
+  max-width: 1300px;
 }
 /*Fim mudança cabeçalho ao rolar*/
-
 /*cabeçalho fim
 Rodapé inicio*/
 footer{
@@ -207,7 +201,6 @@ body{
   transition: 0.8s;
   float:inherit;
 }
-
 .contBanner{
   background: white;
   width: calc(100% - 10px);
@@ -475,7 +468,6 @@ fieldset {
   margin-top: 10px;
   background: #B80718;
   height: 110px;
-
 }
 .twRe{
   margin:5px;

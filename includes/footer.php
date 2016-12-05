@@ -20,7 +20,6 @@ $(document).ready(function($){
     var nav3 = $('.redesSociais');
     var nav4 = $('.search');
     var nav5 = $('.menuSmartTop');
-
     $(window).scroll(function () {
         if ($(this).scrollTop() > 10) {
             nav4.addClass("searchScroll");
@@ -34,7 +33,6 @@ $(document).ready(function($){
             nav2.removeClass("menuFixo");
             nav3.removeClass("semMenu");
             nav5.removeClass("semMenu");
-
         }
     });
 });
@@ -84,7 +82,5 @@ $(document).ready(function($){
     alert("Sua dica foi enviada com sucesso! Iremos avaliá-la.");
     $('#envieDicaForm').hide();
   });
-
-
 </script>
 </html>

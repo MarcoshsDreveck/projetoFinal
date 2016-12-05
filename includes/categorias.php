@@ -27,7 +27,6 @@
     <p class="descCat"><a href="#">Viagens e Lugares</a></p>
     <p class="descCat"><a href="#">Vida e Lazer</a></p><br />
   </div>
-
   <div class="catImg">
     <h1 class="tituloCat"><a href="catImg.php">Gifs / Imgs</a></h1><br />
     <p class="descCat"><a href="#">Animação</a></p>
@@ -50,7 +49,6 @@
     <p class="descCat"><a href="#">Reações</a></p>
     <p class="descCat"><a href="#">Viagens e Lugares</a></p>
     <p class="descCat"><a href="#">Vida e Lazer</a></p><br />
-
   </div>
 </div>
 </body>

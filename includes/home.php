@@ -2,7 +2,6 @@
   include 'header.php';
 ?>
 <body>
-  <!--criar php para adicionar videos e imagens e criar páginas imagem usar exp abaixo -->
   <div class="container">
     <div class="contHome">
       <div class="maisRecentes">

@@ -62,8 +62,6 @@
       <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,70); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
       <div class="contQuadrado"><a href="media.php?x=<?php echo $rd = rand(1,70); ?>"><img src="../medias/<?php echo $rd; ?>.gif" width=100% /></a></div>
     </div>
-
-
   </div>
 </div>
 </body>

@@ -9,7 +9,6 @@
   .menu a{
     display: none;
   }
-
   .parceiros{
     font-size: 20px;
   }
@@ -142,30 +141,30 @@
     display: inline-block;
   }
   .menuSmartTop ul li .fa-upload{
-      display: block;
-      font-size: 120px;
-      position: absolute;
-      top: 10px;
-      right: 140px;
-      margin-left: 10px;
+    display: block;
+    font-size: 120px;
+    position: absolute;
+    top: 10px;
+    right: 140px;
+    margin-left: 10px;
+  }
+  .menuSmartTop ul li .fa-ellipsis-v{
+    display: block;
+    font-size: 130px;
+    margin-top: 10px;
+    position: absolute;
+    top:0px;
+    right: 60px;
+    margin-left: 10px;
     }
-    .menuSmartTop ul li .fa-ellipsis-v{
-        display: block;
-        font-size: 130px;
-        margin-top: 10px;
-        position: absolute;
-        top:0px;
-        right: 60px;
-        margin-left: 10px;
-      }
-      #menuClose .fa{
-        color:#B80718;
-        font-size: 130px;
-        margin-left: 40px;
-      }
-      .semMenu{
-        display: none;
-      }
+  #menuClose .fa{
+    color:#B80718;
+    font-size: 130px;
+    margin-left: 40px;
+  }
+  .semMenu{
+    display: none;
+  }
     /*rodapé*/
   .footerRedesSociais{
     width:45%;

@@ -21,7 +21,6 @@
               <li><a target="_blank" href="https://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             </ul>
           </div>
-
     </div>
     <div class="infPessoais">
         <div class="imgContato"><img src="../medias/ze_contato.jpg" width="100%"/></div>
