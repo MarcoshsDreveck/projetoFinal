@@ -66,5 +66,17 @@ $(document).ready(function($){
         $("#fecharParceiro").click(function() {
       $('#sejaParceiroForm').hide();
     });
+    /*menu smart*/
+    $("#menuBtnSmart").click(function() {
+      $('#idMenuSmart').show();
+      });
+      $("#menuClose").click(function() {
+    $('#idMenuSmart').hide();
+    });
+    $("#idMenuSmartBlur").click(function() {
+  $('#idMenuSmart').hide();
+  });
+
+
 </script>
 </html>

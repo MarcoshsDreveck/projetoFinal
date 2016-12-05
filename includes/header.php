@@ -51,9 +51,28 @@
         <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
       </ul>
     </div>
-    <nav class="menuSmart">
+    <nav id="idMenuSmart" class="menuSmart">
+      <div id="menuClose"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+      <div id="idMenuSmartBlur" class="menuSmartBlur"></div><!--fecha menu-->
+      <ul>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="categorias.php">Categorias</a></li>
+        <li class="catSub"><a href="catVid.php">Videos / Vines</a></li>
+        <li class="catSub"><a href="catImg.php">Gifs / Imgs</a></li>
+        <li><a href="contatoinf.php">Contato</a></li>
+      </ul>
+      <div class="topParceirosSmart">
+        <h1 id="parceirosSmart">TOP parceiros</h1>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiroSmart"><a href="contatoinf.php"></a></div>
 
-
+      </div>
     </nav>
     <div class="search /*searchScroll*/">
       <input type="search" placeholder="Search..."/><i class="fa fa-search" aria-hidden="true"></i>

@@ -73,17 +73,16 @@
       <div class="topParceiros">
         <h1 id="destaqueTop">TOP</h1>
         <h1 class="tituloCat parceiros">Parceiros</h1>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-            <div class="imgParceiro"><a href="#"></a></div>
-
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
+            <div class="imgParceiro"><a href="contatoinf.php"></a></div>
       </div>
   </div>
 </body>
