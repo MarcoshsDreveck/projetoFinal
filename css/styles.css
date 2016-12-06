@@ -91,7 +91,7 @@ header a{
   font-family: NovaSlim,cursive;
   font-size: 20px;
   padding-left: 15px;
-  border-radius: 60px;
+  border-radius: 0px;
 }
 .fa-search{
   width: 40px;
@@ -340,7 +340,7 @@ body{
   height: 100%;
 }
 #envieDicaForm form {
-  width: 60%;
+  width: 40%;
   margin-top: 10%;
   color: white;
   font-family: NovaSlim,cursive;
@@ -426,7 +426,7 @@ fieldset {
   left: 10px;
 }
 #entreContatoForm form {
-  width: 60%;
+  width: 40%;
   margin-top: 2%;
  color: white;
  font-family: NovaSlim,cursive;
@@ -444,7 +444,7 @@ fieldset {
 
 }
 #sejaParceiroForm form {
-  width: 60%;
+  width: 40%;
   margin-top: 2%;
  color: white;
  font-family: NovaSlim,cursive;
